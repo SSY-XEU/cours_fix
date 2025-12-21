@@ -3,10 +3,9 @@
 int variable1= 10 ; // atribué variable ne pas oublier d'indiquer le type 
 int variable2 = 5 ; 
 variable1 += variable2 ;
-//Console.WriteLine("variable = "+ variable1) ;
 
 // compter nb voyelle dans un mot
-Console.Write("Entrez un nombre : "); //demander a l'utilisateur un mot 
+Console.Write("Entrez un mot: "); //demander a l'utilisateur un mot 
 string mot = Console.ReadLine() ; //lire la reponse dans la console
 List<char> voyelle = new List<char> {'a', 'e','i','o','u','y'} ; //char 'a' et pas "a"=string  indique une liste de caractére, je peux pas utiliser de type liste ici car je compare dans le for avec mot[i] qui est de type char 
 int nb_voyelle = 0 ;
@@ -22,10 +21,22 @@ for (int i =0; i<mot.Length ; i++) //i=0; = condition de départ, i<mot.lenght n
 
  if (nb_voyelle==0)
 {
-    Console.Write("il n'a aucune voyelle") ; 
+    Console.WriteLine("il n'a aucune voyelle") ; 
 }
 else 
 {
-    Console.Write(nb_voyelle) ;
+    Console.WriteLine(nb_voyelle) ;
 }
-//fonction apprendre
+
+
+//fonction qui prenne en parametre un nombre et un exposant et qui renvoie le resultat 
+static double exposant (double nb, int exposant) //static= utile quand on fera de la poo, int=type de la valeur retouner, NomFonction, (parametre1, parametre2)
+{
+    double nb_inter= nb ; // premiere declaration ne PAS oublier le TYPE 
+    for (int i=0; i<exposant-1 ; i++)
+    {
+        nb = nb*nb_inter ;
+    }
+    return nb ; //renvoie le resultat de la fonction 
+}
+Console.WriteLine(exposant(5.5,3)) ;
