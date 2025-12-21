@@ -28,4 +28,4 @@ else
 {
     Console.Write(nb_voyelle) ;
 }
-//fonction
+//fonction apprendre
