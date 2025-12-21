@@ -1,0 +1,13 @@
+id_equipe,nom,adresse,telephone
+1,Saint-Amand,"39 avenue du Clos, 59230 Saint-Amand-les-Eaux",03 04 05 06 07
+2,Basket Landes,"15 place Saint-Roch, 40000 Mont-De-Marsan",05 06 07 08 09
+3,Villeneuve d'Ascq,"2 rue Breughel, 59650 Villeneuve-d'Ascq",03 02 01 00 01
+4,Tarbe,"Quai de l'Adour, 65000 Tarbes",05 04 03 02 02
+5,Lyon,"451 cours d'Emile Zola, 69100 Villeurbanne",04 05 06 07 08
+6,Bourges,"6 rue du Pré Doulet, 18000 Bourges",02 03 04 05 06
+7,Charleville-Mézières,"Rue de la Vieille Meuse, 08000 Charleville-Mézières",03 05 07 09 01
+8,Landerneau,"Kerouel, 29410 Pleyber-Christ",02 04 06 08 00
+9,Angers,"330 rue Saint-Léonard, 49000 Angers",02 00 08 06 04
+10,Lattes Montpellier,"157 rue de la Porte Lombarde, 34970 Lattes",04 03 02 01 00
+11,Charnay,"Allée des Ecoliers, 71850 Charnay-lès-Mâcon",03 01 09 07 05
+12,Roche Vendée,"BP 151, 85004 La Roche-Sur-Yon Cedex",02 05 08 01 04
