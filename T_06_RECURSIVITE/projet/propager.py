@@ -1,4 +1,5 @@
 def propager(M:list, i:int, j:int, val:int)->None:
+	pass
     # cas de base
     
     # si l'élément en haut fait partie de la composante on propage
